@@ -5,8 +5,12 @@ h1 {
 	color: #FFFFFF;
 	}
 h2 {
-	color: rgb(55, 65, 64);
+	color: rgb(55, 65, 64,);
 	}
+h3 {
+	color: rgba(0, 0, 0, 0.8);
+	}
+
 strong {
 	color: rgb(55, 65, 64);
 	}
