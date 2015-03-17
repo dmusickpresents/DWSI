@@ -1,16 +1,22 @@
 body {
 	background-color: rgb(175, 208, 209);
-	}
+}
+
 h1 {
 	color: #FFFFFF;
-	}
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 36px;
+}
+
 h2 {
 	color: rgb(55, 65, 64,);
-	}
+}
+
 h3 {
 	color: rgba(0, 0, 0, 0.8);
-	}
+}
 
 strong {
 	color: rgb(55, 65, 64);
-	}
+	font-size: 18px;
+}
