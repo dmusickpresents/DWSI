@@ -33,11 +33,14 @@ a:visited {
 
 a:hover {
 	color: black;
-	text-decoration: underline;
-	
+	text-decoration: underline;	
 }
 
 a:active {
 	color: white;
+}
+
+ul {
+	list-style: inside circle;
 }
 
