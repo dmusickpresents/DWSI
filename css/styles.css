@@ -50,12 +50,30 @@ p {
 /* inline block */
 
 .prolist {
-	display: inline-block;
-	margin: 0px auto;
-	width: 300px;
-	padding: 10px;
-	border: 1px;
-	border-style: ridge;
+ 	display: inline-block;
+ 	margin: 0px auto;
+ 	width: 300px;
+ 	padding: 10px;
+ 	border: 1px;
+ 	border-style: ridge;
+}
+ 
+.top10 {
+ 	display: inline-block;
+ 	margin: 0px auto;
+ 	width: 330px;
+ 	padding: 10px;
+ 	border: 1px;
+ 	border-style: ridge;
+}
+ 
+.types {
+ 	display: inline-block;
+ 	margin: 0px auto;
+ 	width: 250px;
+ 	padding: 10px;
+ 	border: 1px;
+ 	border-style: ridge;
 }
 
 /* display */
