@@ -14,6 +14,7 @@ h1 {
 	padding-right: 20px;
 	padding-bottom: 5px;
 	padding-left: 20px;
+	margin: 20px auto;
 }
 
 h1 {
@@ -52,49 +53,22 @@ p {
 .prolist {
  	display: inline-block;
  	margin: 0px auto;
- 	width: 300px;
- 	padding: 10px;
- 	border: 1px;
- 	border-style: ridge;
+ 	padding: 20px;
 }
- 
+
 .top10 {
  	display: inline-block;
  	margin: 0px auto;
- 	width: 330px;
- 	padding: 10px;
- 	border: 1px;
- 	border-style: ridge;
+ 	padding: 20px;
 }
- 
+
 .types {
  	display: inline-block;
  	margin: 0px auto;
- 	width: 250px;
- 	padding: 10px;
- 	border: 1px;
- 	border-style: ridge;
+ 	padding: 20px;
 }
 
 /* display */
-
-.top10 {
-	display: inline-block;
-	margin: 0px auto;
-	width: 330px;
-	padding: 10px;
-	border: 1px;
-	border-style: ridge;
-}
-
-.types {
-	display: inline-block;
-	margin: 0px auto;
-	width: 250px;
-	padding: 10px;
-	border: 1px;
-	border-style: ridge;
-}
 
 strong {
 	color: rgb(55, 65, 64);
@@ -110,16 +84,29 @@ strong {
 
 .main {
 	margin: 0px auto;
+	padding-top: 0px;
+	padding-left: 30px;
+	padding-bottom: 0px;
+	padding-right: 30px;
+	background-color: lightgray;
+	border-style: ridge;
 }
 
 p {
-	height: 100%;
-	width: 100%;
 	padding-top: 5px;
 	padding-right: 20px;
 	padding-bottom: 5px;
 	padding-left: 20px;
 	border-width: 1px 1px 1px 1px;
+}
+
+.phistory {
+	padding-top: 5px;
+	padding-right: 50px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	border-width: 1px 1px 1px 1px;
+	background-color: white;
 	border-style: ridge;
 }
 
@@ -167,6 +154,6 @@ ul {
 }
 
 .wiki {
-	margin: 0px 0px 0px 350px;
+	margin: 40px 0px 0px 350px;
 }
 
