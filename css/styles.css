@@ -79,7 +79,7 @@ strong {
 /* auto margine */
 
 .main {
-	width: 1000px;
+	width: 70%;
 }
 
 .main {
@@ -96,7 +96,8 @@ strong {
 
 #sidebar {
 	float: right;
-	margin: 10px;
+	width: 40%;
+	margin: 1%px;
 	padding-top: 5px;
 	padding-right: 5px;
 	padding-bottom: 5px;
@@ -106,7 +107,19 @@ strong {
 	border-style: ridge;
 }
 
-p {
+/* liquid layout */
+
+#fluidimg IMG {
+	max-width: 100%;
+	height: auto;
+}
+
+#sidebar IMG {
+	max-width: 100%;
+	height: auto;
+}
+
+#topp {
 	padding-top: 5px;
 	padding-right: 20px;
 	padding-bottom: 5px;
@@ -115,6 +128,7 @@ p {
 }
 
 .phistory {
+	margin-top: 5px;
 	padding-top: 5px;
 	padding-right: 50px;
 	padding-bottom: 5px;
