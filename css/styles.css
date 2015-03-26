@@ -97,6 +97,13 @@ strong {
 #sidebar {
 	float: right;
 	margin: 10px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-width: 1px 1px 1px 1px;
+	background-color: white;
+	border-style: ridge;
 }
 
 p {
