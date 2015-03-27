@@ -43,7 +43,18 @@ h3 {
 	padding-right: 20px;
 	padding-bottom: 5px;
 	padding-left: 20px;
-}	
+}
+
+/*block quote*/
+
+blockquote {
+	font-size: 130%;
+	font-style: Slabo;
+	font-family:'Slabo 27px', Georgie, serif;  
+	padding: 5px;
+	border-top: 1px solid #665544;
+	border-bottom: 1px solid #665544;
+	}	
 	
 /* web fonts */
 
