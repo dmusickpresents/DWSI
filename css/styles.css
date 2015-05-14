@@ -55,4 +55,12 @@ a:hover {
 a:active {
 	color: blue;
 }
+
+ol {
+	list-style: circle;
+}
+
+ul {
+	list-style: square;
+}
 	
