@@ -66,7 +66,7 @@ a:active {
 a:hover {
 	border-color: yellow;
 }
-
+	
 /** list style type **/
 
 ol {
@@ -89,7 +89,7 @@ nav a {
 	float: top;
   	height: 30px;
   	display: inline-block;
-  }
+}
 
 figure a {
 	border: 2px solid orange;
