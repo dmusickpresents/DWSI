@@ -1,3 +1,5 @@
+/** css colors **/
+
 h1 {
 	color: #000000;
 	font-family: Arial, Verdana, sans-serif;
@@ -15,7 +17,7 @@ h1 {
 	background: #ffa90D;
 	width: 180px;
 	border-radius: 10px;
-	box-shadow: 5px 5px 5px #3E454C;
+	box-shadow: 0 0 2px 2px #3E454C;
 }
 
 h2 {
@@ -35,9 +37,13 @@ h3 {
 	padding-left: 20px;
 }
 
+/** web based font **/
+
 p {
 	font-family: 'Slabo 27px', Georgie, serif; 	
 }
+
+/** pseudo-class **/
 
 a:link {
 	color: purple;
@@ -57,12 +63,39 @@ a:active {
 	color: blue;
 }
 
+a:hover {
+	border-color: yellow;
+}
+
+/** list style type **/
+
 ol {
 	list-style: circle;
 }
 
-ul {
+/** box model **/
+
+ul.a {
+	float: top;
+  	height: 30px;
+  	display: inline-block;
+}
+
+ul.a {
 	list-style: none;
+}
+
+nav a {
+	float: top;
+  	height: 30px;
+  	display: inline-block;
+  }
+
+figure a {
+	border: 2px solid orange;
+	height: 400px;
+	width: 300px;
+	display: block;
 }
 
 .main {
@@ -75,5 +108,50 @@ ul {
 	padding-left: 30px;
 	padding-bottom: 0px;
 	padding-right: 30px;
+	border-radius: 10px;
 	border-style: ridge;
+	box-shadow: 0 0 2px 2px #3E454C;
 }
+
+.top {
+	width: 50%;
+	margin: auto;
+}
+
+.top {
+	margin: 0px 0px 0px 50%;
+}
+
+article#a {
+	margin: 0px auto;
+	padding-left: 10px;
+	border-style: solid;
+	border-color: orange;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-left: 20px;
+	padding-bottom: 2px;
+}
+
+article {
+	padding-bottom: 10px;
+}
+
+#CTandP {
+	padding-top: 20px;
+}
+
+figcaption {
+	padding-top: 5px;
+}
+
+h4 {
+	margin-bottom: 0px;
+}
+
+
+article#first {
+	padding-top: 20px
+}	
+		
+	
