@@ -75,13 +75,9 @@ ol {
 
 /** box model **/
 
-li#a {
+li#n,#o,#p,#q,#r {
   	display: inline;
   	margin-right: 10px;
-}
-
-ul#a {
-	list-style: none;
 }
 
 figure a {
