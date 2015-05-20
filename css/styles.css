@@ -9,6 +9,7 @@ h1 {
 	padding-bottom: 5px;
 	padding-left: 20px;
 	margin: 20px auto;
+	text-shadow: 1px 1px #ffffff;
 }
 
 h1 {
@@ -40,7 +41,10 @@ h3 {
 /** web based font **/
 
 p {
-	font-family: 'Slabo 27px', Georgie, serif; 	
+	font-family: 'Slabo 27px', Georgie, serif;
+	text-align: justify;
+	line-height: 140%;
+	font-style: normal;	
 }
 
 /** pseudo-class **/
@@ -75,9 +79,12 @@ ol {
 
 /** box model **/
 
-li#n,#o,#p,#q,#r {
+li#crea,#comm,#teams,#top10,#vari {
   	display: inline;
-  	margin-right: 10px;
+  	margin-right: 5px;
+  	padding-left: 15px;
+  	font-size: 20px;
+  	text-shadow: 2px 2px #d3d3d3;
 }
 
 figure a {
@@ -115,6 +122,10 @@ article#a {
 	padding-bottom: 2px;
 }
 
+p#italic {
+	font-style: italic;
+}
+
 article {
 	padding-bottom: 10px;
 }
@@ -136,7 +147,6 @@ article#first {
 	padding-top: 10px;
 	padding-bottom: 0px;
 }
-
 	
 		
 	
