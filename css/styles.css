@@ -1,5 +1,20 @@
 /** css colors **/
 
+body {
+    background-image: url("../images/simple-checker.gif");
+}
+
+header {
+	background-image: url("../images/dark-canvas.gif");
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:
+}
+
+.main {
+		background-image: url("../images/light-tile.gif");
+}
+
 h1 {
 	color: #000000;
 	font-family: Arial, Verdana, sans-serif;
@@ -98,22 +113,23 @@ figure a {
 	width: 70%;
 	margin: 0px auto;
 	padding-top: 0px;
-	padding-left: 30px;
+	padding-left: 0px;
 	padding-bottom: 0px;
-	padding-right: 30px;
+	padding-right: 0px;
 	border: 3px solid orange;
 	border-radius: 10px;
 	box-shadow: 0 0 2px 2px #3E454C;
+    /**background-image: url("../images/subtle-wood.gif");**/
 }
 
 .top {
+	text-align: center;
 	width: 50%
 	margin: 0px 0px 0px 50%;
 }
 
 article#a {
-	margin: 0px auto;
-	padding-left: 10px;
+	padding-left: 1px;
 	border-style: solid;
 	border-color: orange;
 	padding-top: 2px;
@@ -142,11 +158,65 @@ h4 {
 	margin-bottom: 0px;
 }
 
-
-article#first {
-	padding-top: 10px;
-	padding-bottom: 0px;
+#body {
+	width: 600px;
+	clear: left;
+	margin: 10px;
 }
+
+#Variations {
+	float: right;
+	text-align: left;
+	width: 40%;
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 3%;	
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-bottom: 50px;
+	padding-left: 15px;
+	border-width: 1px 1px 1px 1px;
+	background: linear-gradient(#cedce7, #596a72);
+	border-style: ridge;
+}
+
+#Creation {
+	margin-left: 3%;
+}
+
+#first {
+	margin-left: 3%;
+	margin-top: 5%;
+}
+
+#Common {
+	margin-left: 3%;
+}
+
+#Teams {
+	margin-left: 3%;
+}
+
+#wiki,#links {
+	margin-left: 3%;
+}
+
+#sidebar {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	
+.trademark {
+	text-align: center;
+	width: 50%
+	margin: 0px 0px 0px 50%;
+}
+
+
+	
+
+	
 	
 		
 	
