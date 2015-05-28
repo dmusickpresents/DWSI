@@ -65,16 +65,16 @@ p {
 /** pseudo-class **/
 
 a:link {
-	color: purple;
+	color: green;
 	text-decoration: none;
 }
 
 a:visited {
-	color: black;
+	color: orange;
 }
 
 a:hover {
-	color: black;
+	color: purple;
 	text-decoration: underline;	
 }
 
@@ -99,7 +99,7 @@ li#crea,#comm,#teams,#top10,#vari {
   	margin-right: 5px;
   	padding-left: 15px;
   	font-size: 20px;
-  	text-shadow: 2px 2px #d3d3d3;
+  	/**text-shadow: 2px 2px #d3d3d3;**/
 }
 
 figure a {
@@ -179,6 +179,7 @@ h4 {
 	border-width: 1px 1px 1px 1px;
 	background: linear-gradient(#cedce7, #596a72);
 	border-style: ridge;
+	clear: right;
 }
 
 #Creation {
@@ -206,17 +207,63 @@ h4 {
 	text-align: center;
 	margin-top: 5%;
 	margin-bottom: 2%;
-	
-.trademark {
-	text-align: center;
-	width: 50%
-	margin: 0px 0px 0px 50%;
 }
 
+th {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px
 
-	
+}
 
+td	{
+	border: 1px solid black;
+	padding: 5px;
 	
-	
-		
-	
+}
+
+#conference {
+	width: 300px;
+	padding: 5px 5px 5px 5px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+#column: {
+	width: 300px;
+}
+
+table {
+	padding: 10px;
+	border-spacing: 2px;
+}
+
+td:hover {
+	background-color: orange;
+}
+
+input:focus {
+    background-color: #E6E6E6;
+}
+
+form {
+	width: 300px;
+	padding: 10px;
+	margin-left: 350px;
+	font-size: 15px;
+	color: #000000;
+	border: 1px solid #FF9900;
+	border-radius: 10px;
+	text-align:	left;
+	background-color: #FFD175;
+}
+
+/**INPUT[type=submit]:hover {
+	background-color: #19A3FF;
+	border-radius: 5px;
+	border: 2px;
+}**/
+
