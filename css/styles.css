@@ -38,12 +38,12 @@ p {
 /** pseudo-class **/
 
 a:link {
-	color: white;
+	color: orange;
 	text-decoration: none;
 }
 
 a:visited {
-	color: orange;
+	color: white;
 }
 
 a:hover {
