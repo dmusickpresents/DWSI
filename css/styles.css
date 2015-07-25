@@ -21,6 +21,7 @@ header {
 	border-style: ridge;
 	box-shadow: 0 0 2px 2px #3E454C;
 	clear: both;
+	
 }
 
 h1 {
@@ -139,10 +140,6 @@ figure a {
 	width: 700px;
 	display: block;
 }
-
-
-
-
 
 section#events {
 	margin: 0px auto;
