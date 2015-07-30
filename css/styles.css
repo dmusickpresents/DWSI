@@ -172,7 +172,7 @@ article {
 	padding-bottom: 10px;
 }
 
-/** fig caption, h4, article **/
+/** fig caption - h4 - article **/
 
 figcaption {
 	padding-top: 5px;
@@ -187,7 +187,7 @@ article#first {
 	padding-bottom: 0px;
 }
 
-/** second column **/
+/** second column - float - footer **/
 
 aside {
 	float: right;
@@ -241,7 +241,7 @@ footer {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.1);
 }
 
-/**tables & form styling**/
+/** tables - form styling - label -input **/
 
 th {
     border: 1px solid black;
