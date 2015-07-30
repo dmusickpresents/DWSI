@@ -14,14 +14,15 @@ header {
 .main {
 	background-image: url("../images/light-tile.gif");
 	width: 70%;
-	margin: 0px auto;
+	height: auto;
+	background-repeat: repeat;
+	margin: 12.5% 12.5% 0.2%;
 	margin-top: 5px;
 	padding: 0px 30px 0px 30px;
 	border-radius: 10px;
 	border-style: ridge;
 	box-shadow: 0 0 2px 2px #3E454C;
-	clear: both;
-	
+	display: inline-block;
 }
 
 h1 {
@@ -38,12 +39,16 @@ h1 {
 	background: linear-gradient(#cedce7, #596a72);
 	border-style: ridge;
     font-family: 'Slabo 27px', Georgie, serif;
+        background-image: url("../images/controller.png");
+     	background-size: 3%;
+     	background-attachment: absolute;
+    	background-position: 3%;
+     	background-repeat: no-repeat;
 }
 
 h2 {
 	color: rgb(55, 65, 64,);
 	padding: 5px 20px 5px 0px;
-
 }
 
 h3 {
@@ -60,25 +65,25 @@ p {
 /** pseudo-class **/
 
 a:link {
-	color: orange;
+	color: #FFA500;
 	text-decoration: none;
 }
 
 a:visited {
-	color: light gray;
+	color: #B2B2B2;
 }
 
 a:hover {
-	color: black;
+	color: #000000;
 	text-decoration: underline;	
 }
 
 a:active {
-	color: blue;
+	color: #0892d0;
 }
 
 a:hover {
-	border-color: red;
+	border-color: #ff0000;
 }
 	
 /** list style type **/
@@ -106,13 +111,12 @@ nav a {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.1);
     color: rgb(255,255,255);
  	display: block;
-    font-size: .85rem;
-    letter-spacing: .5rem;
+    font-size: .85em;
+    letter-spacing: .5em;
     line-height: 50px;
     text-shadow: 0 1px 1px rgba(0,0,0,.1);
     text-transform: uppercase;
     transition: all .1s ease;
-
 }
 
 nav a label:hover, nav a:hover {
@@ -134,14 +138,20 @@ nav a {
     text-decoration: none;
     transition: all 0.15s linear;
 } *****************/ 
+
+/**#Top10 {
+	width: 158.6%;
+}**/
+
 figure a {
 	border: 2px solid orange;
 	height: 400px;
-	width: 700px;
+	width: 158.6%;
 	display: block;
 }
 
 section#events {
+	clear: both;
 	margin: 0px auto;
 	padding-left: 10px;
 	border-style: solid;
@@ -153,7 +163,7 @@ section#events {
     background-image: -o-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
     background-image: linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
     box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.1);
-	color: orange;
+	color: #FF9900;
     text-align: center;
     
 }
@@ -179,17 +189,15 @@ article#first {
 
 /** second column **/
 
-#consoles {
+aside {
 	float: right;
-	clear: both;
 	color: #FFA500;
 	text-align: center;
-	width: 30%;
 	margin: 3% 3% 3% 3%;
 	padding: 3px 15px 50px 15px;
 	border-width: 1px 1px 1px 1px;
 	border-style: solid;
-	border-color: orange;
+	border-color: #FF9900;
 	background: linear-gradient(#cedce7, #596a72);
 	border-style: ridge;
 	border-radius: 10px;
@@ -199,12 +207,13 @@ article#first {
     background-image: -o-linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
     background-image: linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
     box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.1);
-    font-family: 'Slabo 27px', Georgie, serif; 
+    font-family: 'Slabo 27px', Georgie, serif;
 }
 
-#rightfloat {
+#rightfloat,#rfloat {
 	width: 50%;
 	float: left;
+	clear: both;
 }
 
 #topfooter {
@@ -232,7 +241,69 @@ footer {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.1);
 }
 
+/**tables & form styling**/
 
+th {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px
+
+}
+
+td	{
+	border: 1px solid black;
+	padding: 5px;
+	
+}
+
+#gameforms {
+	width: 43%;
+	padding: 5px 5px 5px 5px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+#column: {
+	width: 43%;
+}
+
+table {
+	padding: 10px;
+	border-spacing: 2px;
+}
+
+td:hover {
+	background-color: orange;
+}
+
+input:focus {
+    background-color: #E6E6E6;
+}
+
+form {
+	width: 43%;
+	padding: 3%;
+	margin-left: 75%;
+	font-size: 0.938em;
+	color: #000000;
+	border: 1px solid #FF9900;
+	border-radius: 10px;
+	text-align:	left;
+	background-color: #FFD175;
+}
+
+label{
+    display:inline-block;
+    width:95px;
+}
+
+input{
+    box-sizing:border-box;
+    width:calc(100% - 100px);
+}
 
 	
 
